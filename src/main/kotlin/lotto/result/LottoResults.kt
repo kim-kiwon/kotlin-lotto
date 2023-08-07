@@ -14,6 +14,8 @@ class LottoResults(private val results: List<LottoResult>) {
 
     fun getStatistics(): String {
         return """
+        당첨 통계
+        ---
         3개 일치 (${getCommaNumber(FIFTH.income)}원) - ${resultMap[FIFTH]}개
         4개 일치 (${getCommaNumber(FOURTH.income)}원) - ${resultMap[FOURTH]}개
         5개 일치 (${getCommaNumber(THIRD.income)}원) - ${resultMap[THIRD]}개
@@ -23,13 +25,13 @@ class LottoResults(private val results: List<LottoResult>) {
     }
 
     fun getRateOfReturn(money: Int): String {
-        var totalIncome = 0
+        var totalIncome = 0.0
 
         for ((result, count) in resultMap) {
             totalIncome += result.income * count
         }
 
-        return String.format("%.2f", totalIncome / money * 100)
+        return String.format("%.2f", (totalIncome / money) * 100)
     }
 
     private fun getCommaNumber(num: Int): String {
