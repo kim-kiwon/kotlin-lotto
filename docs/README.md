@@ -1,6 +1,6 @@
 ## Kotlin-Lotto
 ### Todo
-- [ ] Add LottoGenerator
+- [x] Add LottoGenerator
 - [ ] Add UserViewer
 - [ ] Add UserInputHandler that receive money, winning number and bonus number
 - [ ] Add LottoResult
