@@ -4,7 +4,7 @@
 - [x] Add UserViewer
 - [x] Add UserInputHandler that receive money, winning number and bonus number
 - [x] Add LottoResult
-- [ ] Add LottoResults
+- [x] Add LottoResults
 - [ ] Add lottoComparator
 
 ### 책임 분배
