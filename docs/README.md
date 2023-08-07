@@ -3,7 +3,7 @@
 - [x] Add LottoGenerator
 - [x] Add UserViewer
 - [x] Add UserInputHandler that receive money, winning number and bonus number
-- [ ] Add LottoResult
+- [x] Add LottoResult
 - [ ] Add LottoResults
 - [ ] Add lottoComparator
 
