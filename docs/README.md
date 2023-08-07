@@ -2,7 +2,7 @@
 ### Todo
 - [x] Add LottoGenerator
 - [x] Add UserViewer
-- [ ] Add UserInputHandler that receive money, winning number and bonus number
+- [x] Add UserInputHandler that receive money, winning number and bonus number
 - [ ] Add LottoResult
 - [ ] Add LottoResults
 - [ ] Add lottoComparator
